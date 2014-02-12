@@ -98,4 +98,10 @@ p {
 	height: 399px;
 	width: 768px;
 	background-image: url(../images/bigisland.gif);
+	font-size: 12px;
+}
+
+.fontsize {
+	font-size: 18px
+	color: green;
 }

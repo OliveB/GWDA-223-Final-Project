@@ -98,5 +98,6 @@ p {
 	height: 399px;
 	width: 768px;
 	background-color: yellow;
-
+	color: white;
+	font-family: Helvetica;
 }
