@@ -78,7 +78,7 @@ p {
 .header {
 	height: 225px;
 	width: 768px;
-	background-image: url(../images/banner.png);
+	background-image: url(../images/bannerupdate.png);
 }
 
 
@@ -91,6 +91,7 @@ p {
 .footer {
 	height: 50px;
 	width: 768px;
+	background-image: url(../images/JPfooter.png);
 	background-color: black;
 
 } *
@@ -100,4 +101,13 @@ p {
 	background-color: #CCCCCC;
 	/*color: white;*/
 	font-family: Helvetica;
+}
+
+div p {
+	float: left;
+	margin-left: 55px;
+}
+
+.footer p {
+	color: white;
 }
