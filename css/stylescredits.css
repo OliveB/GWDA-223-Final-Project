@@ -24,7 +24,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body {
 	line-height: 1;
 	color: black;
-	background: white;
+	height: 1150px;
+	width: 1024px;
+	background-image: url(../images/JurassicParkBackground.jpg);
+	background-repeat: no-repeat;
 }
 ol, ul {
 	list-style: none;
@@ -91,14 +94,24 @@ p {
 .footer {
 	height: 50px;
 	width: 768px;
-	background-color: black;
-
+	background-image: url(../images/JPfooter.png);
+	background-color: white;
 }
 .content {
-	height: 399px;
+	height: 128px;
 	width: 768px;
-	background-image: url(../images/bigisland.gif);
+	background-color: black;
 	font-size: 12px;
+	padding: 0;
+	}
+
+.contenttwo {
+	height: 25px;
+	width: 768px;
+	background-color: white;
+	font-size: 16px;
+	font-family: helvetica;
+	color: black;
 }
 
 .fontsize {
