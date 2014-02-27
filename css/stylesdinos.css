@@ -24,6 +24,15 @@
 }
 
 #content audio {
-	position: absolute;
+	position: relative;
 	bottom: 0;
+	margin-top: 45px;
+}
+
+#slideshow {
+	width: 780px !important;
+}
+
+div p {
+	font-size: 13px;
 }
