@@ -17,7 +17,7 @@ ul {
 }
 #container {
 	height: 100%;
-	width: 768px;
+	width: 980px;
 	background-color: yellow;
 	margin: 0 auto;
 
@@ -40,12 +40,12 @@ ul {
 }	
 #header {
 	height: 225px;
-	width: 768px;
+	width: 980px;
 	background-image: url(../images/banner.png);
 
 }
 #slideshow {
-	width: 768px;
+	width: 980px;
 	background-color: #000000;
 	padding-top: 10px;
 }
@@ -69,9 +69,11 @@ input {
 }
 #footer {
 	height: 50px;
-	width: 768px;
+	width: 980px;
 	background-color: #000000;
 	color: #FFFFFF;
+	clear: left;
+	background-image: url(../images/JPFooter.png);
 }
 #content {
 	height: 399px;
