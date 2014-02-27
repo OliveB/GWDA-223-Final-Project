@@ -93,14 +93,15 @@ p {
 	width: 768px;
 	background-image: url(../images/JPfooter.png);
 	background-color: black;
-
+	float: left;
 } *
-.content {
+#content {
 	height: 699px;
 	width: 768px;
 	background-color: #CCCCCC;
 	/*color: white;*/
 	font-family: Helvetica;
+	position: absolute;
 }
 
 div p {
@@ -110,4 +111,33 @@ div p {
 
 .footer p {
 	color: white;
+	clear: both;
+}
+
+#content .trex {
+	width: 216px;
+	height: 768px;
+	float: left;
+	border: 1px solid #ccc;
+	
+}
+
+#content .velo {
+	width: 270px;
+	height: 768px;
+	float: left;
+	position: relative;
+	border: 1px solid blue;
+}
+
+#content .tric {
+	width: 213px;
+	height: 768px;
+	float: left;
+	position: relative;
+	border: 1px solid red;
+}
+
+#content .trex img {
+	position: relative;
 }
