@@ -58,7 +58,7 @@ ul {
 }
 
 #topic-container {
-	height: 200px;
+	/*height: 200px;*/
 	width: 610px;
 	background-color: #000000;
 	float: left;
@@ -92,5 +92,9 @@ input {
 	margin: 10px;
 }
 
-
-
+#topic-container p {
+	display: none;
+}
+#topic-container h2:hover + p {
+	display: block;
+}
