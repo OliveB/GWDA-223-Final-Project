@@ -1,22 +1,17 @@
 
 
 .content {
-	height: 128px;
-	width: 768px;
-	background-color: black;
 	font-size: 12px;
 	padding: 0;
+	width: calc(100% - 115px);
+	margin: 0 auto;
 	}
 
-.contenttwo {
-	height: 25px;
-	width: 768px;
-	background-color: white;
-	font-size: 16px;
-	font-family: helvetica;
-	color: black;
+.content:after {
+	content: '';
+	display: block;
+	clear: left;
 }
-
 .fontsize {
 	font-size: 18px
 	color: green;
@@ -24,5 +19,6 @@
 .castbox {
 	float: left;
 	margin: 0 5px;
-	text-align: center
+	text-align: center;
+	padding: 5px;
 }
