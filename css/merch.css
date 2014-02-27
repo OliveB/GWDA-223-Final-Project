@@ -1,0 +1,9 @@
+img {
+	float: left;
+}
+#merchandise {
+	width: calc(100% - 200px);
+	margin: 0 auto;
+}
+
+
