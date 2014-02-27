@@ -47,6 +47,7 @@ ul {
 	background-color: #000000;
 	color: #FFFFFF;
 	clear: left;
+	background-image: url(../images/JPFooter.png);
 }
 
 #content {
@@ -58,10 +59,10 @@ ul {
 
 #topic-container {
 	height: 200px;
-	width: 600px;
+	width: 610px;
 	background-color: #000000;
 	float: left;
-	margin: 10px auto;
+	margin: 10px;
 	color: #FFFFFF;
 	padding: 10px;
 }
@@ -71,10 +72,12 @@ ul {
 	background-color: yellow;
 	margin-bottom: 10px;
 	color: #000000;
+	padding: 5px;
+	text-align: center;
 }
 #signup {
 	width: 300px;
-	margin: -710px 10px 10px 25px ;
+	margin: -710px 10px 10px 10px ;
 	float: left;
 }
 #signup h2 {
