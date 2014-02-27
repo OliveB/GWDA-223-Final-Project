@@ -63,11 +63,14 @@ ul {
 }
 #content {
 	height: 399px;
-	width: 768px;
 	background-color: yellow;
 
 }
 
-
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
 
 
