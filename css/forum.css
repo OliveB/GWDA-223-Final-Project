@@ -13,7 +13,7 @@ ul {
 }
 #body {
 	height: 100%;
-	width: 768px;
+	width: 980px;
 	background-color: red;
 	margin: 0 auto;
 
@@ -36,14 +36,14 @@ ul {
 }	
 #header {
 	height: 225px;
-	width: 768px;
+	width: 980px;
 	background-image: url(../images/banner.png);
 
 }
 
 #footer {
 	height: 50px;
-	width: 768px;
+	width: 980px;
 	background-color: #000000;
 	color: #FFFFFF;
 	clear: left;
@@ -51,26 +51,42 @@ ul {
 
 #content {
 	height: 100%;
-	width: 768px;
+	width: 980px;
 	background-color: red;
 
 }
 
 #topic-container {
 	height: 200px;
-	width: 700px;
+	width: 600px;
 	background-color: #000000;
 	float: left;
-	margin: 10px 25px;
+	margin: 10px auto;
 	color: #FFFFFF;
 	padding: 10px;
 }
 #topic-head {
 	height: 30px;
-	width: 700px;
+	width: 600px;
 	background-color: yellow;
 	margin-bottom: 10px;
 	color: #000000;
+}
+#signup {
+	width: 300px;
+	margin: -710px 10px 10px 25px ;
+	float: left;
+}
+#signup h2 {
+	color: black;
+}
+form {
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+input {
+	margin: 10px;
 }
 
 
