@@ -1,48 +1,66 @@
 <!doctype html>
 <head>
-	<title>Jurassic Park The Lost World</title>
+	<title>Jurassic Park The Lost World - Home</title>
+	<link href="css/reset.css" rel="stylesheet"/>
 	<link href="css/styles.css" rel="stylesheet"/>
 </head>
 
 <body>
-	<div class="body">
-		<div class="nav">
-			<div class="nav-links">
-				<p><a href="index.html">Home<a/></p>
-			</div>
-			<div class="nav-links">
-				<p>
-					Dinos
-				</p>
-			</div>
-			<div class="nav-links">
-				<p>
-					Forum
-				</p>
-			</div>
-			<div class="nav-links">
-				<p>
-					Merch
-				</p>
-			</div>
-			<div class="nav-links">
-				<p><a href="credits page.html">Credits Page</a></p>
-			</div>
+	<div id="container">
+		<div id="nav">
+			<div id="nav-links">
+				<ul>
+					<li><a href="index.html">Home<a/></li>
+					<li><a href="dinos.html">Dinos<a/></li>
+					<li><a href="merch.html">Merchandise<a/></li>
+					<li><a href="forum.html">Forum<a/></li>
+					<li><a href="credits.html">Credits<a/></li>
+				</ul>	
+			</div>	
 		</div>
 
-		<div class="header">
+		<div id="header">
 		</div>
 
-		<div class="slideshow">
+		<div id="slideshow">
+				<h1>Welcome to the official site of Jurasic Park The Lost World</h1>
+			
+				<div id="signup">
+					<form name="input" action="html_form_action.asp" method="get">
+						<h2>Sign up for the Jurasic Park newsletter</h2>
+						First Name: <input type="text" name="firstname"><br>
+						Last Name: <input type="text" name="lastname"><br>
+						Email: <input type="email" name=""><br>
+						<input type="radio" name="sex" value="male">Male<br>
+						<input type="radio" name="sex" value="female">Female<br>
+						<h2>What was your favorite Dino in the movie?</h2>
+						<input type="checkbox" name="Dino" value="T-rex">T-rex<br>
+						<input type="checkbox" name="Dino" value="Velociraptor">Velociraptor<br>
+						<input type="checkbox" name="Dino" value="trisuartops">trisuartops<br>
+						<input type="checkbox" name="Dino" value="stegasuras">stegasuras<br>
+						<input type="checkbox" name="Dino" value="Braekeasaurus">"Braekeasaurus<br>
+						<input type="checkbox" name="Dino" value="Tiny raptors">Tiny raptors<br>
+						<input type="checkbox" name="Dino" value="Head butter">Head butter<br>
+						<select name"actor">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+
 		</div>	
 
-		<div class="content">
+		<div id="content">
 		</div>
 
-		<div class="footer">
-			<p>
-				Copyright Info
-			</p>
+		<div id="footer">
+			<ul>
+				<li><h2>Copyright Universal Pictures Studio (1997)</h2></li>
+			</ul>
 		</div>
 
 	</div>
