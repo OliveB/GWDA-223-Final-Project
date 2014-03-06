@@ -22,3 +22,8 @@
 div p {
 	font-size: 13px;
 }
+
+#content {
+	background: url(../images/contentbackground.png) !important;
+	height: 770px !important;
+}
