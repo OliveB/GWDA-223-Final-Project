@@ -11,51 +11,8 @@ ul {
 	text-align: center;
 	margin-top: 20px;
 }
-#body {
-	height: 100%;
-	width: 980px;
-	background-color: red;
-	margin: 0 auto;
 
-}
-#nav {
-	height: 50px;
-	width: 100%;
-	background-color: #FFFFFF;
 
-}
-#nav-links {
-	height: 50px;
-	width: 100%;
-	background-color: #000000;
-	float: left;
-}
-#nav-links li {
-	margin-left: 8%;
-	display: inline
-}	
-#header {
-	height: 225px;
-	width: 980px;
-	background-image: url(../images/banner.png);
-
-}
-
-#footer {
-	height: 50px;
-	width: 980px;
-	background-color: #000000;
-	color: #FFFFFF;
-	clear: left;
-	background-image: url(../images/JPFooter.png);
-}
-
-#content {
-	height: 100%;
-	width: 980px;
-	background-color: red;
-
-}
 
 #topic-container {
 	/*height: 200px;*/
