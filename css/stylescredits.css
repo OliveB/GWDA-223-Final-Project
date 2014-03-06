@@ -30,11 +30,30 @@
 .castbox:hover > .bio {
 	/*display:block;*/
 	visibility: visible;
+	font-size: 16px;
+	text-align: inherit;
 
 } 
+
+.name {
+	font-size: 20px;
+	font-weight: bolder;
+	font-family: arial, helvetica, times;
+	font-style: oblique;
+	color: green;
+}
+
+.career {
+	font-size: 18px;
+	font-weight: inherit;
+	color: red;
+}
 
 #slideshow {
 	margin: 0 auto;
 	text-align: center;
+	height: 326px;
+	/*width: 980px*/
+	background: url("../images/moviebackground.jpg");
 
 }
