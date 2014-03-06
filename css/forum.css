@@ -52,6 +52,6 @@ input {
 #topic-container p {
 	display: none;
 }
-#topic-container h2:hover + p {
+#topic-container h2:hover + p{
 	display: block;
 }
