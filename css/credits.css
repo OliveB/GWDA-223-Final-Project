@@ -10,6 +10,12 @@
 	display: block;
 	clear: left;
 }
+
+.extra {
+	height: 100px;
+	width: 980px;
+}
+
 .fontsize {
 	font-size: 18px
 	color: green;
@@ -57,5 +63,14 @@
 	height: 326px;
 	/*width: 980px*/
 	background: url("../images/credits/moviebackground.jpg");
+}
 
+@media (min-width: 220px) and (max-width: 880px) { 
+	#content {
+		display: none;
+}
+
+    .slideshow {
+	width: 970px;
+   }
 }
