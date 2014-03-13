@@ -32,6 +32,8 @@
 	visibility: visible;
 	font-size: 16px;
 	text-align: inherit;
+	overflow: auto;
+	height: 270px;
 
 } 
 
@@ -54,6 +56,6 @@
 	text-align: center;
 	height: 326px;
 	/*width: 980px*/
-	background: url("../images/moviebackground.jpg");
+	background: url("../images/credits/moviebackground.jpg");
 
 }
