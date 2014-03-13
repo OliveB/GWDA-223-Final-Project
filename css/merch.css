@@ -79,6 +79,7 @@ h1 {
   color: white;
   text-align: center;
   background-color: #129f12;
+  overflow: auto;
 }
 
 .face.back {
