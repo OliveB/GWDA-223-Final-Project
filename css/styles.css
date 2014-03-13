@@ -85,6 +85,11 @@ ul {
 	clear: left;
 	background-image: url(../images/JPFooter.png);
 }
+
+#footer p {
+   font-size: 10px;
+}
+
 #content {
 	height: 100%;
 
@@ -130,6 +135,7 @@ ul {
    top: -325px;	/* Original Position - Outside of the Slider */
    list-style: none;
 }
+
 
 #slider li.firstanimation {
    -webkit-animation: cycle 25s linear infinite;		
