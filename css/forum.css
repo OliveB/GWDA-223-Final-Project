@@ -1,57 +1,45 @@
-
-h2 {
-	font-size: 1.5em;
-}
-p {
-	font-family: Helvetica, Arial, sans-serif;
-}
-ul {
-	font-family: Helvetica, Arial, sans-serif;
-	color: #FFFFFF;
-	text-align: center;
-	margin-top: 20px;
-}
-
-
-
-#topic-container {
-	/*height: 200px;*/
-	width: 610px;
-	background-color: #000000;
+.forum-column {
 	float: left;
+}
+
+.topic-container {
+	width: 630px;
+	background-color: #000000;
 	margin: 10px;
 	color: #FFFFFF;
 	padding: 10px;
 }
-#topic-head {
-	height: 30px;
+.topic-container p {
+	display: none;
 	width: 600px;
+}
+.topic-container h2 {
+	font-size: 1.5em;
+}
+.topic-container h2:hover + p {
+	display: block;
+}
+.topic-head {
 	background-color: yellow;
 	margin-bottom: 10px;
 	color: #000000;
 	padding: 5px;
 	text-align: center;
 }
+
+
 #signup {
 	width: 300px;
-	margin: -260px 10px 10px 10px ;
-	float: left;
 }
 #signup h2 {
 	color: black;
 }
-form {
+#signup form {
+	margin: 10px 0;
 	background-color: white;
 	border-radius: 10px;
 	padding: 10px;
 }
-input {
+#signup input {
 	margin: 10px;
-}
-
-#topic-container p {
-	display: none;
-}
-#topic-container h2:hover + p{
-	display: block;
 }

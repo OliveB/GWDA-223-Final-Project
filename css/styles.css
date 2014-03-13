@@ -101,6 +101,10 @@ ul {
 	clear: both;
 }
 
+.pre-line {
+   white-space: pre-line;
+}
+
 
 /* slider css */
 .slidercontainer {
