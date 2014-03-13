@@ -50,7 +50,7 @@ h1 {
 .card-container:hover > .card {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  box-shadow: -5px 5px 5px #aaa;
+  box-shadow: -5px 5px 5px #000000;
 }
 
 .shadow {
@@ -78,7 +78,7 @@ h1 {
   padding: 10px;
   color: white;
   text-align: center;
-  background-color: #aaa;
+  background-color: #129f12;
 }
 
 .face.back {
