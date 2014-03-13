@@ -35,7 +35,7 @@ ul {
 #nav-links {
 	height: 50px;
 	width: 100%;
-	background-color: #000000;
+	background: url(../images/navredo.jpg);
 	float: left;
 }
 #nav-links li {
