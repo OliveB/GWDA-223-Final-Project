@@ -39,7 +39,7 @@ h1 {
 }
 
 @media (min-width: 220px) and (max-width: 880px) {
-	#container .dino {
+	#content .tric {
 		display: none;
 	}
 }
