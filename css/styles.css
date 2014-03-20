@@ -111,6 +111,69 @@ li {
    white-space: pre-line;
 }
 
+@media screen and (max-width: 480px) {
+
+   #slider {
+      display: none;
+   }
+   #nav {
+      width: 480px;
+   }
+   #slideshow {
+      width: 480px;
+   }
+   #info {
+      width: 480px;
+      padding: 5px;
+   }
+   #infoinfo {
+      width: 480px;
+   }
+   #header {
+      width: 480px;
+   }
+   #info img {
+      margin-left: 50px;
+   }
+   #footer {
+      width: 480px;
+   }
+   #container {
+      width: 480px;
+   }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 800px){
+   #nav {
+      width: 800px;
+   }
+   #slideshow {
+      width: 800px;
+   }
+   #info {
+      width: 800px;
+      padding: 5px;
+   }
+   #infoinfo {
+      width: 800px;
+   }
+   #header {
+      width: 800px;
+   }
+   #info img {
+      margin-left: 200px;
+   }
+   #footer {
+      width: 800px;
+   }
+   #container {
+      width: 800px;
+   }   
+
+
+   
+}
 
 /* slider css */
 .slidercontainer {
