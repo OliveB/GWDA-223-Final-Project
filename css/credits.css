@@ -72,7 +72,7 @@
 	display: none;
 }
 
-@media (min-width: 16sd80px) { 
+@media (min-width: 1680px) { 
 	.extra {
 		top: 350px;
 		right: 5px;
