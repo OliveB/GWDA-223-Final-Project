@@ -32,6 +32,7 @@ div p {
 
 #slideshow h1 {
 	margin-left: 150px !important;
+	position: relative !important;
 }
 
 h1 {
@@ -51,7 +52,7 @@ h1 {
 	#content .trex {
 		width: 45%;
 		float: left;
-		margin-left: 55[Ppx;
+		margin-left: 55px;
 	}
 }
 

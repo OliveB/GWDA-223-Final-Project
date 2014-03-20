@@ -55,11 +55,14 @@ li {
 
 }
 #slideshow {
-	padding-top: 10px;
-	margin: 5px;
+	/*padding-top: 10px;
+	margin: 5px;*/
 }
 #slideshow h1 {
 	text-align: center;
+   position: absolute;
+   margin-top: 5px;
+   margin-left: 70px;
 }
 
 #info {
