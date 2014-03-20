@@ -42,5 +42,16 @@ h1 {
 	#content .tric {
 		display: none;
 	}
+
+	#content .velo {
+		width: 45%;
+		float: left;
+	}
+
+	#content .trex {
+		width: 45%;
+		float: left;
+		margin-left: 55px;
+	}
 }
 
