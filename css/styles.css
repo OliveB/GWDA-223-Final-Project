@@ -25,6 +25,26 @@ li {
    font-size: 13px;
 }
 
+a:visited {
+   background-color: none;
+   font-size: 20px;
+}
+
+a:hover {
+   text-decoration: none;
+   background-color: white;
+   font-size: 20px;
+}
+
+a {
+   text-decoration: none;
+   background-color: orange;
+   font-size: 20px;
+}
+
+
+
+
 #container {
 	height: 100%;
 	width: 980px;
