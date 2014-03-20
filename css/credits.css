@@ -11,10 +11,6 @@
 	clear: left;
 }
 
-.extra {
-	height: 100px;
-	width: 980px;
-}
 
 .fontsize {
 	font-size: 18px
@@ -26,6 +22,12 @@
 	text-align: center;
 	padding: 5px;
 	width: 120px;
+}
+
+.extra {
+	position: absolute; 
+	top: 350px; 
+	right: ;
 }
 .bio { 
 	visibility: hidden;
@@ -65,12 +67,15 @@
 	background: url("../images/credits/moviebackground.jpg");
 }
 
-@media (min-width: 220px) and (max-width: 880px) { 
-	#content {
-		display: none;
+.extra {
+	display: none;
 }
 
-    .slideshow {
-	width: 970px;
-   }
+@media (min-width: 1680px) { 
+	.extra {
+		top: 350px;
+		right: 5px;
+		position: absolute;
+		display: block;
+	}
 }
