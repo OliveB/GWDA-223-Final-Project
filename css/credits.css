@@ -1,9 +1,13 @@
-0.content {
+.cast {
 	font-size: 12px;
-	padding: 0;
+	padding: 0px;
 	width: calc(100% - 115px);
 	margin: 0 auto;
-	}
+}
+.content {
+	
+	background: url(../images/credits/back1.jpg)no-repeat;
+ }
 
 .content:after {
 	content: '';
@@ -12,10 +16,6 @@
 }
 
 
-.fontsize {
-	font-size: 18px
-	color: green;
-}
 .castbox {
 	float: left;
 	margin: 0 5px;
@@ -41,7 +41,8 @@
 	font-size: 16px;
 	text-align: inherit;
 	overflow: auto;
-	height: 270px;
+	height: 240px;
+	color: #CCCCCC;
 
 } 
 
@@ -62,16 +63,16 @@
 #slideshow {
 	margin: 0 auto;
 	text-align: center;
-	height: 326px;
+	padding: 0;
 	/*width: 980px*/
-	background: url("../images/credits/moviebackground.jpg");
+	background: url("../images/credits/moviebackground.jpg")no-repeat;
 }
 
 .extra {
 	display: none;
 }
 
-@media (min-width: 1680px) { 
+@media (min-width: 16sd80px) { 
 	.extra {
 		top: 350px;
 		right: 5px;
