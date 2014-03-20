@@ -234,30 +234,45 @@ a {
 
 
 #slider li.firstanimation {
-   -webkit-animation: cycle 25s linear infinite;		
+   -webkit-animation: cycle 25s linear infinite;
+   -moz-animation: cycle 25s linear infinite;		
 }
 
 #slider li.secondanimation {
-   -webkit-animation: cycletwo 25s linear infinite;	
+   -webkit-animation: cycletwo 25s linear infinite;
+   -moz-animation: cycle 25s linear infinite;	
    animation: cycletwo 25s linear infinite;	
 }
 
 #slider li.thirdanimation {
    -webkit-animation: cyclethree 25s linear infinite;
+   -moz-animation: cycle 25s linear infinite;
    animation: cyclethree 25s linear infinite;		
 }
 
 #slider li.fourthanimation {
-   -webkit-animation: cyclefour 25s linear infinite;		
+   -webkit-animation: cyclefour 25s linear infinite;
+   -moz-animation: cycle 25s linear infinite;		
    animation: cyclefour 25s linear infinite;		
 }
 
 #slider li.fifthanimation {
-   -webkit-animation: cyclefive 25s linear infinite;		
+   -webkit-animation: cyclefive 25s linear infinite;
+   -moz-animation: cycle 25s linear infinite;		
    animation: cyclefive 25s linear infinite;		
 }
 
 @-webkit-keyframes cycle {
+   0%  { top: 0px; } /* When you start the slide, the first image is already visible */
+   4%  { top: 0px; } /* Original Position */
+   16% { top: 0px; opacity:1; z-index:0; } /* From 4% to 16 % = for 3 seconds the image is visible */
+   20% { top: 325px; opacity: 0; z-index: 0; } /* From 16% to 20% = for 1 second exit image */
+   21% { top: -325px; opacity: 0; z-index: -1; } /* Return to Original Position */
+   92% { top: -325px; opacity: 0; z-index: 0; }
+   96% { top: -325px; opacity: 0; } /* From 96% to 100% = for 1 second enter image*/
+   100%{ top: 0px; opacity: 1; }
+}
+@-moz-keyframes cycle {
    0%  { top: 0px; } /* When you start the slide, the first image is already visible */
    4%  { top: 0px; } /* Original Position */
    16% { top: 0px; opacity:1; z-index:0; } /* From 4% to 16 % = for 3 seconds the image is visible */
